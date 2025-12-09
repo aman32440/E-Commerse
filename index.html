@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pathak Store</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+
+  <style>
+    body {
+      padding-top: 70px;
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .navbar-brand {
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .nav-link {
+      font-weight: 500;
+      margin-left: 15px;
+      transition: color 0.3s ease;
+    }
+    .nav-link:hover {
+      color: yellow !important;
+    }
+    .nav-link.active {
+      border-bottom: 2px solid yellow;
+    }
+    .hero-section {
+      background: linear-gradient(to right, #000000, #24020a);
+      color: white;
+      padding: 80px 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">PATHAK STORE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+              <li><a class="dropdown-item" href="#phones">Phones</a></li>
+              <li><a class="dropdown-item" href="#shoes">Shoes</a></li>
+              <li><a class="dropdown-item" href="#laptops">Laptops</a></li>
+              <li><a class="dropdown-item" href="#shirts">Shirts</a></li>
+              <li><a class="dropdown-item" href="#jeans">Jeans</a></li>
+              <li><a class="dropdown-item" href="#tshirts">T-Shirts</a></li>
+              <li><a class="dropdown-item" href="#jackets">Jackets</a></li>
+               <li><a class="dropdown-item" href="#WATCHES">WATCHES</a></li>
+               <li><a class="dropdown-item" href="#sports">sports</a></li>
+               <li><a class="dropdown-item" href="#electronics">electronics</a></li>
+               <li><a class="dropdown-item" href="#households">households</a></li>
+               
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex ms-3">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="hero-section">
+      <h1 class="display-4">Welcome to PATHAK STORE</h1>
+      <p class="lead">Best products at the cheapest prices!</p>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <!-- Phones -->
+    <h2 id="phones" class="text-center mb-4">Phones</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="phone1.jpeg" class="card-img-top" alt="iPhone 15"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">iPhone 15</h5>
+            <p class="card-text">₹51,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ph2.jpeg" class="card-img-top" alt="Oppo Reno 8"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Oppo Reno 8</h5>
+            <p class="card-text">₹45,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ph3.jpeg" class="card-img-top" alt="Oppo Reno 8"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">vivo</h5>
+            <p class="card-text">₹45,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ph4.jpeg" class="card-img-top" alt="Oppo Reno 8"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">one plus</h5>
+            <p class="card-text">₹45,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ph5.jpeg" class="card-img-top" alt="Oppo Reno 8"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">asus 5</h5>
+            <p class="card-text">₹45,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="realme.jpeg" class="card-img-top" alt="Oppo Reno 8"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">realme </h5>
+            <p class="card-text">₹45,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="nothing.jpeg" class="card-img-top" alt="Oppo Reno 8"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">nothing</h5>
+            <p class="card-text">₹45,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="micro.jpg" class="card-img-top" alt="Oppo Reno 8"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">micromax</h5>
+            <p class="card-text">₹45,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ph3.jpeg" class="card-img-top" alt="Vivo V30"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Vivo V30</h5>
+            <p class="card-text">₹39,999</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shoes -->
+    <h2 id="shoes" class="text-center mb-4 mt-5">Shoes</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shoes.jpeg" class="card-img-top" alt="Nike Shoes"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Nike Shoes</h5>
+            <p class="card-text">₹999</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sh4.jpeg" class="card-img-top" alt="Adidas"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Adidas</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="boot.jpeg" class="card-img-top" alt="Adidas"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">boot</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="rebok.jpg" class="card-img-top" alt="Adidas"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">sniker</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="puma.jpg" class="card-img-top" alt="Adidas"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">puma</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sport.jpeg" class="card-img-top" alt="Adidas"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">sports shoes</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="bucci.jpeg" class="card-img-top" alt="Adidas"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">bacca bucci</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="samba.jpeg" class="card-img-top" alt="Adidas"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Adidas samba</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sh2.jpg" class="card-img-top" alt="Red Tape"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Red Tape</h5>
+            <p class="card-text">₹899</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Laptops -->
+    <h2 id="laptops" class="text-center mb-4 mt-5">Laptops</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="lap1.jpg" class="card-img-top" alt="Asus TUF Gaming"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">ASUS TUF GAMING</h5>
+            <p class="card-text">₹71,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="lp2.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">HP Pavilion</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="lenovo.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">lenovo</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="msi.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">msi</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="vivo.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">vivo book</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sam.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">samsung</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="mac.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">i mac</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="victus.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">victus</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="lp3.jpeg" class="card-img-top" alt="Dell Inspiron"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">DELL Inspiron</h5>
+            <p class="card-text">₹75,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shirts -->
+    <h2 id="shirts" class="text-center mb-4 mt-5">Shirts</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shi1.jpg" class="card-img-top" alt="Formal Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Formal Shirt</h5>
+            <p class="card-text">₹799</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shi2.jpeg" class="card-img-top" alt="Casual Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Casual Shirt</h5>
+            <p class="card-text">₹699</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shirt4.jpeg" class="card-img-top" alt="Casual Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">check shirt</h5>
+            <p class="card-text">₹699</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shirt5.jpeg" class="card-img-top" alt="Casual Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">black shirt</h5>
+            <p class="card-text">₹699</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shirt6.jpeg" class="card-img-top" alt="Casual Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">red and black shirt</h5>
+            <p class="card-text">₹699</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shirt7.jpg" class="card-img-top" alt="Casual Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">white shirt</h5>
+            <p class="card-text">₹699</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shirt8.jpeg" class="card-img-top" alt="Casual Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">blue shirt</h5>
+            <p class="card-text">₹699</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shi2.jpeg" class="card-img-top" alt="Casual Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Casual Shirt</h5>
+            <p class="card-text">₹699</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="shi3.jpeg" class="card-img-top" alt="Checked Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Checked Shirt</h5>
+            <p class="card-text">₹899</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <h2 id="jeans" class="text-center mb-4 mt-5">Jeans</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jea.jpeg" class="card-img-top" alt="Levi's Jeans" style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Levi's Jeans</h5>
+            <p class="card-text">₹1,499</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jea1.jpeg" class="card-img-top" alt="Wrangler"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Wrangler</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jeans.jpeg" class="card-img-top" alt="Wrangler"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">dark blue jeans</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jeans2.jpeg" class="card-img-top" alt="Wrangler"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">light blue jeans</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jeans3.jpg" class="card-img-top" alt="Wrangler"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">beige jeans</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jeans4.jpeg" class="card-img-top" alt="Wrangler"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">dark green jeans</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jeans5.jpeg" class="card-img-top" alt="Wrangler"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">light yellow jeans/h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jeans6.jpeg" class="card-img-top" alt="Wrangler"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">light blue jeans</h5>
+            <p class="card-text">₹1,299</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jea2.jpeg" class="card-img-top" alt="Pepe Jeans"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Pepe Jeans</h5>
+            <p class="card-text">₹1,199</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <h2 id="tshirts" class="text-center mb-4 mt-5">T-Shirts</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="t1.jpeg" class="card-img-top" alt="Graphic Tee"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Graphic Tee</h5>
+            <p class="card-text">₹499</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="t2.jpg" class="card-img-top" alt="Plain White Tee"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Plain White Tee</h5>
+            <p class="card-text">₹399</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="tshirt2.jpg" class="card-img-top" alt="Plain White Tee"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Plain White Tee</h5>
+            <p class="card-text">₹399</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="tshirt3.jpeg" class="card-img-top" alt="Plain White Tee"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Plain White Tee</h5>
+            <p class="card-text">₹399</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="tshirt4.jpg" class="card-img-top" alt="Plain White Tee"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">design t shirt</h5>
+            <p class="card-text">₹399</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="tshirt5.jpg" class="card-img-top" alt="Plain White Tee"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">wolf t-shirt</h5>
+            <p class="card-text">₹399</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="tshirt6.jpg" class="card-img-top" alt="Plain White Tee"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">custom t shirt</h5>
+            <p class="card-text">₹399</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="tshirt.jpeg" class="card-img-top" alt="Plain White Tee"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">back printed t shirt</h5>
+            <p class="card-text">₹399</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="t3.jpeg" class="card-img-top" alt="Polo T-Shirt"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Polo T-Shirt</h5>
+            <p class="card-text">₹599</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <h2 id="jackets" class="text-center mb-4 mt-5">Jackets</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="j1.jpg" class="card-img-top" alt="Leather Jacket"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Leather Jacket</h5>
+            <p class="card-text">₹2,999</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="j2.jpeg" class="card-img-top" alt="Denim Jacket"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Denim Jacket</h5>
+            <p class="card-text">₹1,899</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jacket7.jpeg" class="card-img-top" alt="Denim Jacket"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">windcheater</h5>
+            <p class="card-text">₹1,899</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jacket2.jpeg" class="card-img-top" alt="Denim Jacket"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">buff jacket</h5>
+            <p class="card-text">₹1,899</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jacket3.jpg" class="card-img-top" alt="Denim Jacket"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">daniem jacket</h5>
+            <p class="card-text">₹1,899</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jacket4.jpeg" class="card-img-top" alt="Denim Jacket"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">leather jacket</h5>
+            <p class="card-text">₹1,899</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jacket5.jpeg" class="card-img-top" alt="Denim Jacket"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">black jacket</h5>
+            <p class="card-text">₹1,899</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="jacket5.jpeg" class="card-img-top" alt="Denim Jacket"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Denim Jacket</h5>
+            <p class="card-text">₹1,899</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="j3.jpg" class="card-img-top" alt="Winter Jacket"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">Winter Jacket</h5>
+            <p class="card-text">₹3,499</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- watches -->
+    <h2 id="WATCHES" class="text-center mb-4 mt-5">watches</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="w2.jpg" class="card-img-top" alt="Asus TUF Gaming"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">samrt band</h5>
+            <p class="card-text">₹71,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="w3.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">classic blue watch</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="w4.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">golden watch</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="w5.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">silver watch</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="w6.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">wall watch</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="w7.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">silver claassic  watch</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="w8.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">hand  watch</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="w9.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">silver </h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="w0.jpg" class="card-img-top" alt="Dell Inspiron"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">old money </h5>
+            <p class="card-text">₹75,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+        <!-- sports -->
+    <h2 id="sports" class="text-center mb-4 mt-5">sports</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sp3.jpg" class="card-img-top" alt="Asus TUF Gaming"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">football</h5>
+            <p class="card-text">₹71,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sp4.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">basketball</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sp5.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">cricket ball</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sp7.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">baseball glloves </h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sp8.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">baseball</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sp9.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">baseball bat</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sp9.jpeg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">hockey bat</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="s0.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">cricket kit</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="sp0.jpg" class="card-img-top" alt="Dell Inspiron"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">jersey</h5>
+            <p class="card-text">₹75,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+        <!-- electronics -->
+    <h2 id="electronics" class="text-center mb-4 mt-5">electronics</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ele1.jpeg" class="card-img-top" alt="Asus TUF Gaming"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">charger</h5>
+            <p class="card-text">₹71,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ele2.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">samsung  charger</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ele3.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">powerbank</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ele4.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">20000 mah powerbank</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ele5.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">phone cover</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ele6.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">i  phone cover</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ele6.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">i phone 14 cover</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ele7.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">speaker cover</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ele8.jpg" class="card-img-top" alt="Dell Inspiron"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">boat speaker</h5>
+            <p class="card-text">₹75,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+        <!-- households -->
+    <h2 id="households" class="text-center mb-4 mt-5">households</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ho1.jpeg" class="card-img-top" alt="Asus TUF Gaming"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">wifer </h5>
+            <p class="card-text">₹71,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ho2.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">jhaddu</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ho3.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">gas chula</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ho4.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">chimni</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ho5.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">gas pipe</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ho10.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">bedsheet</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ho7.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">washing machine</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ho8.jpg" class="card-img-top" alt="HP Laptop"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">fridge</h5>
+            <p class="card-text">₹68,500</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="ho0.jpg" class="card-img-top" alt="Dell Inspiron"style="height: auto; width:auto">
+          <div class="card-body text-center">
+            <h5 class="card-title">pet food</h5>
+            <p class="card-text">₹75,000</p>
+            <a href="#" class="btn btn-outline-danger">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
